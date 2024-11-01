@@ -1,0 +1,41 @@
+
+
+.img-color{
+    background-color: #F2EBDA;
+}
+
+.button-color{
+    background-color: #FF5331 !important;
+}
+
+.card-bg-color{
+    background-color: #fafafa !important;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+.input-container input {
+    width: 100%;
+    padding-right: 100px; 
+    height: 45px;
+}
+.input-container button {
+    position: absolute;
+    right: 6px;
+    top: 3px;
+}
+
+.img-color {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0); /* Initial position */
+    }
+    50% {
+        transform: translateY(-10px); /* Move up by 10px */
+    }
+}
